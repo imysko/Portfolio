@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Ilia's portfolio",
+  "scripts": {
+    "dev": "next dev -H localhost",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imysko/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "Ilia Mysko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imysko/Portfolio/issues"
+  },
+  "homepage": "https://github.com/imysko/Portfolio#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.2",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.0",
+    "prettier": "^2.7.1"
+  }
+}
